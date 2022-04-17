@@ -1,0 +1,249 @@
+/*правило работы сайта при различных устройствах. Условия*/
+	    @media (max-width: 576px) {/*все устройства у которых ширина меньше 576px*/
+	    
+	    .container1 {
+	    }
+	     
+	    .box {
+	        display: none;
+	        font-size: 15px;
+	     }
+	    }
+	    .tech{
+	    	padding-left: 10px;
+	    	width: 300px;
+	    }
+	    .number7{
+	    	font-size: 8px;
+	    }
+	    .search{
+	    	width: 130px;
+	    }
+	    .btn1{
+	    	width: 8px;
+	    	height: 8px;
+	    }
+	    .catalog{
+	    	
+	    }
+	    .vhod{
+	    	height: 100px;
+	    }
+	    .end1{
+	    	width: 200px;
+	    }
+	    .link1{
+			text-decoration: none;
+			color: black;
+			font-family: DejaVu Sans Mono, monospace;
+			font-size: 30px;
+			margin-left: 10px;
+		}
+		.igra{
+			height: 500px;
+			margin-top: 200px;
+		}
+	    /**/
+	    @media (min-width: 576px) {/*все устройства у которых ширина больше 576px*/
+	    
+	    .container1 {
+	    }
+	    
+	   .box {
+	   		width: 100px;
+	        font-size: 20px;
+	     }
+	    }
+	    .tech{
+	    	padding-left: 20px;
+	    	width: 300px;
+	    }
+	    .number7{
+	    	font-size: 13px;
+	    }
+	    .search{
+	    	width: 280px;
+	    }
+	    .btn1{
+	    	width: 12px;
+	    	height: 12px;
+
+	    }
+	    .catalog{
+	    	
+	    }
+	    .vhod{
+	    	height: 100px;
+	    }
+	    .end1{
+	    	width: 200px;
+	    }
+	    .link1{
+			text-decoration: none;
+			color: black;
+			font-family: DejaVu Sans Mono, monospace;
+			font-size: 30px;
+			margin-left: 10px;
+		}
+		.main{
+			height: 700px;
+		}
+	    /*от 576 до 768 все будет черного цвета*/
+	    @media (min-width: 768px) {/*все устройства у которых ширина больше 768px*/
+	    
+	    .container1 {
+	    }
+	    
+	    .box {
+	        width: 150px;
+	        font-size: 25px;
+	     }
+	    }
+	    .tech{
+	    	padding-left: 30px;
+	    	width: 300px;
+	    }
+	    .number7{
+	    	font-size: 18px;
+	    }
+	    .search{
+	    	width: 410px;
+	    }
+	    .btn1{
+	    	width: 15px;
+	    	height: 15px;
+	    	margin-left: 0px;
+	    	margin-right: 5px;
+	    }
+	    .catalog{
+	    	
+	    }
+	    .vhod{
+	    	height: 100px;
+	    }
+	    .end1{
+	    	width: 300px;
+	    	margin-left: auto;
+	    	margin-right: auto;
+	    }
+	    .link1{
+			text-decoration: none;
+			color: black;
+			font-family: DejaVu Sans Mono, monospace;
+			font-size: 30px;
+			margin-left: 10px;
+		}
+		.main{
+			height: 700px;
+		}
+	    @media (min-width: 992px) {/*все устройства у которых ширина больше 992px*/
+	    
+	    .container1 {
+	    }
+	    
+	    .box {
+	        width: 175px;
+	        font-size: 30px;
+	     }
+	    }
+	    .tech{
+	    	padding-left: 40px;
+	    	width: 300px;
+	    }
+	    .number7{
+	    	font-size: 18px;
+	    }
+	    .search{
+	    	width: 550px;
+	    }
+	    .btn1{
+	    	width: 17px;
+	    	height: 17px;
+	    }
+	    .catalog{
+	    	width: 424px;
+	    }
+	    .vhod{
+	    	height: 100px;
+	    }
+	    .end1{
+	    	width: 400px;
+	    	margin-left: auto;
+	    	margin-right: auto;
+	    	margin-top: ;
+	    }
+	    .link1{
+			text-decoration: none;
+			color: black;
+			font-family: DejaVu Sans Mono, monospace;
+			font-size: 26px;
+			margin-left: 10px;
+		}
+		.cimg{
+			margin-top: 60px;
+		}
+		.main{
+			height: 700px;
+		}
+	    @media (min-width: 1200px) {/*все устройства у которых ширина больше 1200px*/
+	    
+	    .container1 {
+	    }
+	    
+	    .box {
+	       width: 200px;
+	       font-size: 35px;
+	     }
+	    .tech{
+	    	padding-left: 50px;
+	    	width: 250px;
+	    }
+	    .number7{
+	    	font-size: 20px;
+	    }
+	    .search{
+	    	width: 600px;
+	    }
+	    .btn1{
+	    	width: 17px;
+	    	height: 17px;
+	    	margin-left: 5px;
+	    }
+	    .catalog{
+	    	width: 625px;
+	    	height: 1000px;
+	    }
+	    .vhod{
+	    	height: 100px;
+	    }
+	    .end1{
+	    	width: 800px;
+	    	margin-left: auto;
+	    	margin-right: auto;
+	    	margin-top: 0px;
+	    }
+	    .link1{
+			text-decoration: none;
+			color: black;
+			font-family: DejaVu Sans Mono, monospace;
+			font-size: 30px;
+			margin-left: 10px;
+		}
+		.cimg{
+
+		}
+		.main{
+			height: 700px;
+		}
+	    }
+		.about{
+			margin-bottom: 0px;
+			color: #7b7a80;
+		}
+		.margin{
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+		
